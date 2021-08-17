@@ -1,0 +1,244 @@
+
+body {
+	line-height: 1;
+	background-color: rgb(91, 99, 114);
+	outline: rgb(91, 99, 114) 40px solid;
+}
+
+
+.head{
+	text-align: center;
+	background-color: gray;
+	margin: 20px;
+	text-decoration-line: none;
+	position: relative;
+}
+.head .first .acr{
+	border: 2px solid rgb(161, 150, 150);
+	border-radius: 100%;
+	border-width: 5px;
+	font-size:50px;
+	text-justify: center;
+	background-color:rgb(163, 149, 149);
+	color:white;
+	margin-bottom: 2px;
+	padding:5px;
+	
+}
+.head .first{
+	font-size:70px;
+	color:white;
+	margin-bottom: 2px;
+}
+.head .head2{
+	font-size:30px;
+	color:white;
+	text-decoration: none;
+}
+.head .head2 h4{
+	margin:0rem;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color: blueviolet;
+}
+li a{
+	color: black;
+}
+.gridy{
+	display:grid;
+	grid-template-columns: 1fr 15fr;
+	grid-template-areas: 
+	"a b"
+	"c d"
+	"e f"
+	"g h"
+	"i j"
+	"k l";
+	margin: 1rem;
+}
+/*.gridy::before{
+	content: 'display: grid';
+
+}*/
+
+.gridy .outb{
+	grid-area: a;
+	background-color:rgb(80, 141, 143);
+	color: rgb(255, 255, 255);
+	padding: 1rem;
+	padding-top: 0rem;
+	text-align: right;
+	border-right: 3px solid black;
+}
+	
+.gridy .summary{
+	grid-area: b;
+	color:black;
+	background-color:rgb(80, 141, 143);
+	margin-left: 1em;
+	padding: 1rem;
+}
+p{
+	line-height: 1.5em;
+	text-align: justify;
+	font-family: 'Times New Roman';
+	color: black;
+}
+.gridy .skills{
+	grid-area: c;
+	background-color: cadetblue;
+	color: white;
+	padding-top:0rem 1rem;
+	margin-top: 0rem;
+	text-align: right;
+	border-right: 3px solid black;
+}
+	
+table{
+	background-color: cadetblue;
+	grid-area: d;
+	color:rgb(26, 17, 17);
+	margin-left: 1rem;
+	line-height: 1.5em;
+}
+th{
+	text-align: left;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 2em;
+}
+td{
+	padding-left: 2em;
+	color: black;
+}
+.gridy .experience1{
+	grid-area: e;
+	background-color:rgb(80, 141, 143);
+	color: white;
+	padding: 1rem;
+	padding-top: 0rem;
+	text-align: right;
+	border-right: 3px solid black;
+}
+	
+.gridy .exp{
+	grid-area: f;
+	color:black;
+	margin-left: 1em;
+	background-color:rgb(80, 141, 143);
+	list-style-position: inside;
+	line-height: 1.5em;
+	padding-left: 1em;
+}
+.firstexp{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.secondexp{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.thirdexp{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.fourthexp{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.gridy .acad{
+	grid-area: g;
+	background-color: cadetblue;
+	color: white;
+	padding: 1rem;
+	padding-top: 0rem;
+	text-align: right;
+	border-right: 3px solid black;
+}
+	
+.gridy .qual{
+	grid-area: h;
+	background-color: cadetblue;
+	color:rgb(34, 25, 25);
+	margin-left: 1em;
+	padding: 0 1rem 0 1em;
+}
+.fourthexp span{
+	float: right;
+	padding-right: 1em;
+}
+.gridy .hob{
+	grid-area: i;
+	background-color:rgb(80, 141, 143);
+	color: white;
+	padding: 1rem;
+	padding-top: 0rem;
+	text-align: right;
+	border-right: 3px solid black;
+}
+	
+.gridy .hobies{
+	grid-area: j;
+	color:black;
+	background-color:rgb(80, 141, 143);
+	margin-left: 1em;
+	padding:2rem;
+	margin-top: -3px;
+	margin-bottom: -3px;
+
+}
+.firstdegree span{
+	float: right;
+}
+.gridy .ref{
+	grid-area: k;
+	background-color: cadetblue;
+	color: white;
+	text-align: right;
+	border-right: 3px solid black;
+	padding-top: 0rem;
+}
+	
+.gridy .referee{
+	grid-area: l;
+	color:black;
+	background-color: cadetblue;
+	margin-left: 1em;
+	margin-top:-3px;
+	margin-bottom: -3px;
+	padding: 1rem;
+}
+.firstdegree{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.secondary{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.secondary span{
+	float: right;
+}
+.IMG{
+	height:20px;
+	width:20px;
+}
+.IMG2{
+	height:20px;
+	width:20px;
+}
+.IMG3{
+	height:20px;
+	width:20px;
+}
