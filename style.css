@@ -1,17 +1,21 @@
 
 body {
 	line-height: 1;
-	background-color: rgb(91, 99, 114);
-	outline: rgb(91, 99, 114) 40px solid;
+	background-color: white;
+	outline: white 40px solid;
 }
 
 
 .head{
 	text-align: center;
-	background-color: gray;
+	background-color: white;
 	margin: 20px;
+    padding: 1rem;
 	text-decoration-line: none;
 	position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .head .first .acr{
 	border: 2px solid rgb(161, 150, 150);
@@ -20,26 +24,26 @@ body {
 	font-size:50px;
 	text-justify: center;
 	background-color:rgb(163, 149, 149);
-	color:white;
-	margin-bottom: 2px;
-	padding:5px;
+	color: rgb(148, 35, 35);
+	padding:0px 5px;
+    margin-top: 0px;
 	
 }
 .head .first{
 	font-size:70px;
-	color:white;
+	color: rgb(148, 35, 35);
 	margin-bottom: 2px;
 }
 .head .head2{
 	font-size:30px;
-	color:white;
+	color: black;
 	text-decoration: none;
 }
 .head .head2 h4{
 	margin:0rem;
 }
 a{
-	color:white;
+	color:black;
 	text-decoration: none;
 }
 a:hover{
@@ -67,8 +71,8 @@ li a{
 
 .gridy .outb{
 	grid-area: a;
-	background-color:rgb(80, 141, 143);
-	color: rgb(255, 255, 255);
+	background-color:white;
+	color: rgb(148, 35, 35);
 	padding: 1rem;
 	padding-top: 0rem;
 	text-align: right;
@@ -78,7 +82,7 @@ li a{
 .gridy .summary{
 	grid-area: b;
 	color:black;
-	background-color:rgb(80, 141, 143);
+	background-color:white;
 	margin-left: 1em;
 	padding: 1rem;
 }
@@ -90,16 +94,17 @@ p{
 }
 .gridy .skills{
 	grid-area: c;
-	background-color: cadetblue;
-	color: white;
-	padding-top:0rem 1rem;
+	background-color: white;
+	color: rgb(148, 35, 35);
+	padding:1rem;
+    padding-top: 0rem;
 	margin-top: 0rem;
 	text-align: right;
 	border-right: 3px solid black;
 }
 	
 table{
-	background-color: cadetblue;
+	background-color: white;
 	grid-area: d;
 	color:rgb(26, 17, 17);
 	margin-left: 1rem;
@@ -107,7 +112,7 @@ table{
 }
 th{
 	text-align: left;
-	color:white;
+	color: rgb(148, 35, 35);
 	text-transform: uppercase;
 	font-weight: bold;
 	padding-left: 2em;
@@ -118,8 +123,8 @@ td{
 }
 .gridy .experience1{
 	grid-area: e;
-	background-color:rgb(80, 141, 143);
-	color: white;
+	background-color:white;
+	color: rgb(148, 35, 35);
 	padding: 1rem;
 	padding-top: 0rem;
 	text-align: right;
@@ -128,9 +133,9 @@ td{
 	
 .gridy .exp{
 	grid-area: f;
-	color:black;
+	color: black;
 	margin-left: 1em;
-	background-color:rgb(80, 141, 143);
+	background-color:white;
 	list-style-position: inside;
 	line-height: 1.5em;
 	padding-left: 1em;
@@ -138,27 +143,27 @@ td{
 .firstexp{
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(148, 35, 35);
 }
 .secondexp{
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(148, 35, 35);
 }
 .thirdexp{
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(148, 35, 35);
 }
 .fourthexp{
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(148, 35, 35);
 }
 .gridy .acad{
 	grid-area: g;
-	background-color: cadetblue;
-	color: white;
+	background-color: white;
+	color: rgb(148, 35, 35);
 	padding: 1rem;
 	padding-top: 0rem;
 	text-align: right;
@@ -167,8 +172,8 @@ td{
 	
 .gridy .qual{
 	grid-area: h;
-	background-color: cadetblue;
-	color:rgb(34, 25, 25);
+	background-color: white;
+	color: black;
 	margin-left: 1em;
 	padding: 0 1rem 0 1em;
 }
@@ -178,8 +183,8 @@ td{
 }
 .gridy .hob{
 	grid-area: i;
-	background-color:rgb(80, 141, 143);
-	color: white;
+	background-color:white;
+	color: rgb(148, 35, 35);
 	padding: 1rem;
 	padding-top: 0rem;
 	text-align: right;
@@ -189,7 +194,7 @@ td{
 .gridy .hobies{
 	grid-area: j;
 	color:black;
-	background-color:rgb(80, 141, 143);
+	background-color:white;
 	margin-left: 1em;
 	padding:2rem;
 	margin-top: -3px;
@@ -201,17 +206,18 @@ td{
 }
 .gridy .ref{
 	grid-area: k;
-	background-color: cadetblue;
-	color: white;
+	background-color: white;
+	color: rgb(148, 35, 35);
 	text-align: right;
 	border-right: 3px solid black;
+    padding: 1rem;
 	padding-top: 0rem;
 }
 	
 .gridy .referee{
 	grid-area: l;
 	color:black;
-	background-color: cadetblue;
+	background-color: white;
 	margin-left: 1em;
 	margin-top:-3px;
 	margin-bottom: -3px;
@@ -220,12 +226,12 @@ td{
 .firstdegree{
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(148, 35, 35);
 }
 .secondary{
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(148, 35, 35);
 }
 .secondary span{
 	float: right;
@@ -241,4 +247,13 @@ td{
 .IMG3{
 	height:20px;
 	width:20px;
+}
+#namePage{
+    text-decoration: none;
+    color: black;
+    margin-left: 35rem;
+    margin-top: -3rem;
+}
+#namePage a:hover{
+    color: brown;
 }
