@@ -3,7 +3,7 @@
 const firstName = " Yusuf" ;
 const lastName = " Salaudeen";
 
-const fullName = firstName + lastName;
+const fullName = lastName + firstName;
 
 var myName=document.getElementById("name");
 myName.innerHTML= fullName;
