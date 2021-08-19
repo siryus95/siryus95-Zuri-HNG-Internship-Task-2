@@ -253,7 +253,11 @@ td{
     color: black;
     margin-left: 30rem;
     margin-top: -3rem;
+    
 }
 #namePage a:hover{
     color: brown;
+}
+#namePage a{
+    padding: .2rem;
 }
